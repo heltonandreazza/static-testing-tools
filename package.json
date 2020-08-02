@@ -4,7 +4,9 @@
   "author": "Kent C. Dodds (http://kentcdodds.com/)",
   "license": "GPLv3",
   "scripts": {
-    "build": "babel src --out-dir dist"
+    "build": "babel src --out-dir dist",
+    "lint": "eslint --ignore-path .gitignore .",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.*(js|json)\""
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
@@ -12,6 +14,8 @@
     "@babel/preset-env": "^7.5.5"
   },
   "dependencies": {
-    "eslint": "^7.6.0"
+    "eslint": "^7.6.0",
+    "eslint-config-prettier": "^6.11.0",
+    "prettier": "^2.0.5"
   }
 }
