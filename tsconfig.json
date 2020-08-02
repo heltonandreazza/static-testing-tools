@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "noEmit": true, // let only babel compile files
+    "baseUrl": "./src"
+  }
+}
+// with this config you can run npx tsc and get the errors
