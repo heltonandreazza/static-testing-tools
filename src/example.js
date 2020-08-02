@@ -1,5 +1,7 @@
+'use strict'
+
 const username = 'freddy'
-typeof username === 'string'
+typeof username === 'strng'
 
 if (!('serviceWorker' in navigator)) {
   // you have an old browser :-(
